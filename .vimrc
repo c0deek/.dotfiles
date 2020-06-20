@@ -74,10 +74,10 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
 " ...and in insert mode
-inoremap <Left>  <ESC>:echoe "Use h"<CR>
-inoremap <Right> <ESC>:echoe "Use l"<CR>
-inoremap <Up>    <ESC>:echoe "Use k"<CR>
-inoremap <Down>  <ESC>:echoe "Use j"<CR>
+" inoremap <Left>  <ESC>:echoe "Use h"<CR>
+" inoremap <Right> <ESC>:echoe "Use l"<CR>
+" inoremap <Up>    <ESC>:echoe "Use k"<CR>
+" inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 
 " for setting tab to 4 spaces
@@ -92,3 +92,33 @@ set cindent
 
 " for auto-indentation
 set autoindent
+
+"-- PLUGINS (Using junegunn/vim-plug) --
+call plug#begin()
+" for html
+Plug 'mattn/emmet-vim'
+
+" tree for files
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" for react
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
+" miramare theme 
+Plug 'franbach/miramare'
+call plug#end()
+
+"-- EMMET CONFIG --
+"redefine trigger key
+let g:user_emmet_leader_key=','
+" for jsx
+let g:user_emmet_settings = {
+\ "javascript:jsx" : {
+ \      "extends": "jsx"
+ \ },
+\}
+
+" setting colorscheme miramare
+colorscheme miramare
