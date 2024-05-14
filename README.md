@@ -1,0 +1,2 @@
+## Dotfile ideas
+- <blockquote class="reddit-embed-bq" data-embed-snippet="2_0_636" data-embed-showedits="false" data-embed-created="2024-05-14T16:47:16.245Z" data-embed-height="818"><a href="https://www.reddit.com/r/neovim/comments/qrjoya/comment/hk8q7hl/">Comment</a><br> by<a href=""></a> from discussion<a href="https://www.reddit.com/r/neovim/comments/qrjoya/how_to_link_different_setup_files_per_plugin_nvim/"><no value=""></no></a><br> in<a href="https://www.reddit.com/r/neovim/">neovim</a></blockquote>
